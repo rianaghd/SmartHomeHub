@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHomeHub", "SmartHomeHub.csproj", "{AD40CC0D-D8E4-2303-055D-ED745997BE17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD40CC0D-D8E4-2303-055D-ED745997BE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD40CC0D-D8E4-2303-055D-ED745997BE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD40CC0D-D8E4-2303-055D-ED745997BE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD40CC0D-D8E4-2303-055D-ED745997BE17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5433166-1C18-43AE-8D5B-32BBF0872DB1}
+	EndGlobalSection
+EndGlobal
