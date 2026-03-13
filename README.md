@@ -14,7 +14,6 @@ SmartHomeHub är ett litet Smart Home-system där man kan styra lampor, termosta
 dotnet build
 dotnet run
 -------------------------------------------------------------------------------
-
 Designmönster
 
 1️⃣ Observer
@@ -42,9 +41,7 @@ Designmönster
 	•	Beskrivning: Logger har en gemensam instans som används av flera observers.
 	•	Exempel: LoggerObserver skriver loggar via Logger.Instance.Log() från olika events.
     --------------------------------------------------------------------------
-
-KlassDiagram 
-
+KlassDiagram:
 SmartHomeFacade
 ├─ List<IDevice> devices
 ├─ List<IObserver> observers
@@ -80,8 +77,7 @@ Strategy
 Singleton
 └─ Logger (singleton)
 -----------------------------------------------------------------------------
-
-DemoOutput
+DemoOutput:
 
 Dashboard: Mode changed to EcoMode
 LOG: Mode changed to EcoMode
@@ -102,7 +98,7 @@ Living Room lamp turned on
 Hall set to 21°C
 Front Door locked
 --------------------------------------------------------------
-Reflektion
+Reflektion:
 Designmönster är kraftfulla verktyg för att skapa modulär, lättutbyggd och
 underhållbar kod, men de ska användas med eftertanke. I små eller enkla projekt 
 kan överanvändning av mönster göra koden onödigt komplex och svår att följa. 
