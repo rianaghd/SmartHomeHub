@@ -103,4 +103,10 @@ Hall set to 21°C
 Front Door locked
 --------------------------------------------------------------
 Reflektion
-Designmönster är kraftfulla verktyg för att skapa modulär, lättutbyggd och underhållbar kod, men de ska användas med eftertanke. I små eller enkla projekt kan överanvändning av mönster göra koden onödigt komplex och svår att följa. Till exempel hade vi kunnat styra devices direkt i main-programmet utan Facade, men då hade systemet blivit svårare att utöka och återanvända. Balansen handlar om att använda mönster där de verkligen förenklar lösningen, och undvika dem där enkel kod räcker.
+Designmönster är kraftfulla verktyg för att skapa modulär, lättutbyggd och
+underhållbar kod, men de ska användas med eftertanke. I små eller enkla projekt 
+kan överanvändning av mönster göra koden onödigt komplex och svår att följa. 
+Till exempel hade vi kunnat styra devices direkt i main-programmet utan Facade, 
+men då hade systemet blivit svårare att utöka och återanvända. Balansen handlar 
+om att använda mönster där de verkligen förenklar lösningen, och undvika dem där 
+enkel kod räcker.
